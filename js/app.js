@@ -66,11 +66,7 @@ function carritoHTML(){
 //elimina los cursos del tbody
 
 function limpiarHTML(){
-    //contenedorCarrito.innerHTML = '';
+    contenedorCarrito.innerHTML = '';
 
-    while(contenedorCarrito.firstChild){
-        contenedorCarrito.renoveChild(contenedorCarrito.firstChild)
-
-    }
 }
 
